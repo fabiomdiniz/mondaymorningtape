@@ -1,0 +1,38 @@
+* { font-family: 'Kameron', arial, serif; } 
+
+#leftside {
+	position: absolute;
+	top: 0px;
+	width: 500px;
+	left: 10px;
+}
+
+#rightside {
+	position: absolute;
+	top: 0px;
+	left: 510px;
+	right: 20px;
+}
+
+#footer {
+	position: absolute;
+	top: 720px;
+	right:20px;
+	width:200px;
+}
+
+label {
+    display: block;
+    padding-left: 15px;
+    text-indent: -15px;
+}
+input {
+    width: 200px;
+
+    padding: 0;
+    margin:0;
+    vertical-align: bottom;
+    position: relative;
+    top: -1px;
+    *overflow: hidden;
+}
